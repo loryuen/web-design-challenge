@@ -1,45 +1,28 @@
 /* boxes*/
 
-
-
-.box {
-    position: absolute;
-    margin-top: 10%;
-    margin-left: 1%;
-    height: 600px;
-    width: 600px;
-    
+.title-main {
+    padding-top: 20px;
+    padding-left: 5px;
     }
 
-/*.box-side {
-    position: absolute;
-    margin-top: 10%;
-    margin-right: 1%;
-    height: 400px;
-    width:100px;
-    background: cadetblue'
+.title-side {
+    padding-top: 30px;
+    padding-left: 5px;
     }
 
-/*.box-side {
-    position: fixed;
-    width: 20%;
-    height: 400px;
-    background: cadetblue'
-    }*/
+.spacer {
+    padding: 25px 0 0 0;
+}
 
-.main {
-    position: absolute;
-    margin-top: 10%;
-    margin-left: 2%
-    }
+.background-main {
+    background: cadetblue}
 
-.text-main {
-    position: relative;
-    margin-top: 20%;}
+.background-side {
+    background: cadetblue}
 
-.side {
-    position: absolute;
-    margin-top: 30%;}
+#plot-main {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 5px;}
 
-
-
+/* height: auto; width: 23% and 45% for smaller screens for visualization side panel*/
