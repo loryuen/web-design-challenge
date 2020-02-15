@@ -1,10 +1,9 @@
 /* boxes*/
 
-
 .title-main {
     padding-top: 20px;
     padding-left: 5px;
-    color: rosybrown;
+    color: steelblue;
     }
 
 .title-side {
@@ -22,6 +21,12 @@
 
 .background-side {
     background: cadetblue}*/
+
+.title-plot { 
+    text-align: center;
+    color: steelblue;
+    padding-top: 15px;
+    }
 
 #plot-main {
     float: left;
