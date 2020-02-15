@@ -20,7 +20,7 @@
 <!-- body -->
 <body>
     <!-- navigation bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: lightgray">
         <a class="navbar-brand" href="#">Weather Analytics</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -49,11 +49,6 @@
               <a class="nav-link active" href="#">Data</a>
             </li>
           </ul>
-          <!-- Search bar -->
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
         </div>
       </nav>
 
@@ -66,7 +61,7 @@
         <div class="row">
             
             <!-- main content of landing page -->
-            <div class="col-md-9 background-main">
+            <div class="col-md-8 background-main">
                 <!-- main box -->
                 <h2 class="main title-main">Summary of Weather Data</h2>
                 <hr>
@@ -77,11 +72,36 @@
             </div>
             
             <!-- side content of landing page -->
-            <div class="col-6 col-md-3 background-side">
+            <div class="col-6 col-md-4 background-side">
                 <!-- side box -->
                 <h4 class="side title-side">Visualizations</h4>
                 <hr>
+                <!-- buttons for each of the 4 graphs -->
+                <div>
+                    <a href="#">
+                        <img class="plot-side" id="plot-side-1" src="assets/plots/01_Temp.png" alt="Lat vs Max Temp Plot">
+                    </a>
+                    <!-- <figcaption class="caption"><em>Maximum Temperature</em></figcaption> -->
+                </div>
+                <div>
+                    <a href="#">
+                        <img class="plot-side" id="plot-side-2" src="assets/plots/02_Humidity.png" alt="Lat vs Humidity Plot">
+                    </a>
+                    <!-- <figcaption class="caption"><em>Humidity</em></figcaption> -->
+                </div>
+            
+                <div>
+                    <a href="#">
+                        <img class="plot-side" id="plot-side-3" src="assets/plots/03_Cloudiness.png" alt="Lat vs Cloudiness Plot">
+                    </a>
+                    <!-- <figcaption class="caption"><em>Cloudiness</em></figcaption> -->
 
+                    <a href="#">
+                        <img class="plot-side" id="plot-side-4" src="assets/plots/04_Windspeed.png" alt="Lat vs Max Windspeed Plot">
+                    </a>
+                    <!-- <figcaption class="caption"><em>Windspeed</em></figcaption> -->
+
+                </div>
             </div>
           </div>
     

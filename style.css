@@ -1,28 +1,74 @@
 /* boxes*/
 
+
 .title-main {
     padding-top: 20px;
     padding-left: 5px;
+    color: rosybrown;
     }
 
 .title-side {
     padding-top: 30px;
     padding-left: 5px;
+    color: rosybrown;
     }
 
 .spacer {
     padding: 25px 0 0 0;
 }
 
-.background-main {
+/*.background-main {
     background: cadetblue}
 
 .background-side {
-    background: cadetblue}
+    background: cadetblue}*/
 
 #plot-main {
     float: left;
     padding-right: 10px;
     padding-bottom: 5px;}
 
-/* height: auto; width: 23% and 45% for smaller screens for visualization side panel*/
+#plot-side-1 {
+    display: inline-block;
+    float: left;
+    width: 40%;
+    height: auto;
+}
+
+#plot-side-2 {
+    display: inline-block;
+    float: right;
+    width: 40%;
+    height: auto;
+}
+
+#plot-side-3 {
+    display: inline-block;
+    float: left;
+    width: 40%;
+    height: auto;
+}
+
+#plot-side-4 {
+    display: inline-block;
+    float: right;
+    width: 40%;
+    height: auto;
+}
+
+.caption {
+    font-size: 10px;
+    padding-bottom: 8px;}
+
+
+
+
+
+@media screen and (max-width: 480pax) {
+    .col-side {
+     flex: 100%;
+     max-width: 100%;
+     
+}
+
+/* height: auto; width: 23% and 45% for smaller screens for visualization side panel, inline*/
