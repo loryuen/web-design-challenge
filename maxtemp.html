@@ -1,11 +1,11 @@
-<!-- COMPARISONS -->
+<!-- MAX TEMP PLOT -->
 <!DOCTYPE html>
 <html lang="en-us">
 
 <!-- header -->
 <head>
     <meta charset="UTF-8">
-    <title> Weather Analytics | Comparisons </title>
+    <title> Weather Analytics | Max Temp </title>
 
     <!-- link to bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -28,7 +28,7 @@
         </button>
         <!-- navbar buttons -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto"> 
             <!-- dropdown -->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -56,75 +56,45 @@
    
     <!-- container -->
     <div class="container">
-        <!-- row spacer between nav bar and content -->
         <div class="row spacer">
             <div class="col-12 top-spacer"></div>
         </div>
-
         <div class="row">
-            <!-- title of content -->
-            <div class="col-md-12 background-main">
+            
+            <!-- main content of landing page -->
+            <div class="col-md-8 background-main">
                 <!-- main box -->
-                <h2 class="main title-main">Comparison: Latitude vs. X</h2>
+                <h2 class="main title-main">Max Temperature</h2>
                 <hr>
-                <p>Click on any plot for in-depth analysis.</p>
+                <section class = "center-div">
+                    <img id="plot-showcase" src="assets/plots/01_Temp.png" alt="Lat vs Max Temp Plot">
+                </section>
+                <p class="main text-main">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum risus ut justo laoreet consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc dui neque, malesuada egestas aliquet ac, commodo in magna. Etiam mollis odio at mi maximus hendrerit. Integer aliquam id lectus nec hendrerit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
             </div>
-        </div>
-
-        <!-- first row of graphs -->
-        <div class="row">
-            <!-- column 1 -->
-            <div class="col-md-6 background-main">
-                <!-- plot 1 title -->
-                <h5 class="sub title-plot">vs. Max Temperature</h5>
-                <!-- plot 1 image button -->
-                <div class='plot-comp'>
-                    <a class='highlight' href="maxtemp.html">
-                        <img class="plot-comp" id="plot-comp-t" src="assets/plots/01_Temp.png" alt="Lat vs Max Temp Plot">
+            
+            <!-- side content of landing page -->
+            <div class="col-md-4 background-side">
+                <!-- side box -->
+                <h4 class="side title-side">Visualizations</h4>
+                <hr>
+                <!-- buttons for each of the 4 graphs -->
+                <div class="center-div">
+                    <a class="border" href="#">
+                        <img class="plot-side" id="plot-side-1" src="assets/plots/01_Temp.png" alt="Lat vs Max Temp Plot">
                     </a>
-                </div>
-            </div>
-            <!-- column 2 -->
-            <div class="col-md-6 background-main">
-                <!-- plot 2 title -->
-                <h5 class="sub title-plot">vs. Humidity</h5>
-                <!-- plot 2 image button -->
-                <div class='plot-comp'>
                     <a class='highlight' href="#">
-                        <img class="plot-comp" id="plot-comp-t" src="assets/plots/02_Humidity.png" alt="Lat vs Humidity Plot">
+                        <img class="plot-side" id="plot-side-2" src="assets/plots/02_Humidity.png" alt="Lat vs Max Temp Plot">
                     </a>
-                </div>
-            </div>
-        </div>
-
-        <!-- second row of graphs -->
-        <div class="row">
-            <!-- column 1 -->
-            <div class="col-md-6 background-main">
-                <!-- plot 3 title -->
-                <h5 class="sub title-plot">vs. Cloudiness</h5>
-                <!-- plot 3 image button -->
-                <div class='plot-comp'>
                     <a class='highlight' href="#">
-                        <img class="plot-comp" id="plot-comp-b" src="assets/plots/03_Cloudiness.png" alt="Lat vs Cloudiness Plot">
+                        <img class="plot-side" id="plot-side-3" src="assets/plots/03_Cloudiness.png" alt="Lat vs Max Temp Plot">
                     </a>
-                </div>
-            </div>
-            <!-- column 2 -->
-            <div class="col-md-6 background-main">
-                <!-- plot 4 title -->
-                <h5 class="sub title-plot">vs. Windspeed</h5>
-                <!-- plot 4 image button -->
-                <div class='plot-comp'>
                     <a class='highlight' href="#">
-                        <img class="plot-comp" id="plot-comp-b" src="assets/plots/04_Windspeed.png" alt="Lat vs Max Windspeed Plot">
+                        <img class="plot-side" id="plot-side-4" src="assets/plots/04_Windspeed.png" alt="Lat vs Max Temp Plot">
                     </a>
                 </div>
             </div>
-        </div>
-    
-    </div>
-   
+          </div>
+          
     <!-- footer -->
     </div>
     <div class='footer'>
@@ -132,6 +102,8 @@
             <p>Copyright 2020</p> 
         </footer>
     </div>
+   
+
 
 </body>
 

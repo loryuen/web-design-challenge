@@ -67,7 +67,43 @@ body {
     height: auto;
     display: inline-block;
     margin: 0 auto;
+    padding: 5px;
 }
+
+#plot-showcase {
+    padding-top: 5px;
+    padding-bottom: 20px;
+    width: 70%;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    }
+
+.highlight:hover img {
+    border: 1px solid navy;
+}
+
+.border img{
+    border: 2px solid lightgray;
+    }
+
+@media (max-width: 768px) {
+    .plot-side {
+     max-width: 22%;
+    display: inline-block;
+}
+
+
+
+/* height: auto; width: 23% and 45% for smaller screens for visualization side panel, inline*/
+
+/*active class and put blue box
+classname:hover {box shadow}
+
+
+
+
+
 
 /*#plot-side-1 {
     display: inline-block;
@@ -100,17 +136,3 @@ body {
 .caption {
     font-size: 10px;
     padding-bottom: 8px;}*/
-
-
-@media (max-width: 768px) {
-    .plot-side {
-     max-width: 22%;
-    display: inline-block;
-}
-
-
-
-/* height: auto; width: 23% and 45% for smaller screens for visualization side panel, inline*/
-
-/*active class and put blue box
-classname:hover {box shadow}
