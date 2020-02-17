@@ -1,4 +1,5 @@
-/* boxes*/
+/* stylesheet */
+
 body {
     position: relative;
     min-height: 100vh;
@@ -8,14 +9,13 @@ body {
     font-size: 12px;
     margin-left: 15px;
 }
-
-
+/*height: 2.3rem; position: aboslute*/
 .footer {
     position: absolute;
     bottom: 0;
+    left: 0;
     width: 100%;
-    height: 2.3rem;
-    padding-top: 7px;
+    padding-top: 18px;
     background: thistle;
     text-align: center;
     color: black;
@@ -24,16 +24,10 @@ body {
 
 .plot-comp {
     text-align: center;
+    padding-bottom: 6px;
 }
 .center-div {
     text-align: center;
-}
-
-#plot-comp-t{
-    padding-bottom: 6%;
-}
-#plot-comp-b {
-    padding-bottom: 20%;
 }
 
 .title-main {
@@ -103,47 +97,3 @@ body {
      max-width: 22%;
     display: inline-block;
 }
-
-
-
-/* height: auto; width: 23% and 45% for smaller screens for visualization side panel, inline*/
-
-/*active class and put blue box
-classname:hover {box shadow}
-
-
-
-
-
-
-/*#plot-side-1 {
-    display: inline-block;
-    float: left;
-    width: 40%;
-    height: auto;
-}
-
-#plot-side-2 {
-    display: inline-block;
-    float: right;
-    width: 40%;
-    height: auto;
-}
-
-#plot-side-3 {
-    display: inline-block;
-    float: left;
-    width: 40%;
-    height: auto;
-}
-
-#plot-side-4 {
-    display: inline-block;
-    float: right;
-    width: 40%;
-    height: auto;
-}
-
-.caption {
-    font-size: 10px;
-    padding-bottom: 8px;}*/
