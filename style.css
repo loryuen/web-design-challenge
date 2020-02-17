@@ -4,6 +4,12 @@ body {
     min-height: 100vh;
 }
 
+#table {
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -13,6 +19,7 @@ body {
     background: thistle;
     text-align: center;
     color: black;
+    margin-top: 20px;
     }
 
 .plot-comp {
@@ -44,6 +51,10 @@ body {
 .spacer {
     padding: 25px 0 0 0;
 }
+
+.spacer-bottom {
+    padding: 50px;
+    }
 
 /*.background-main {
     background: cadetblue}*/
