@@ -18,17 +18,18 @@ body {
     padding-top: 18px;
     background: thistle;
     text-align: center;
-    color: navy;
     margin-top: 20px;
     }
 
 .plot-comp {
     text-align: center;
-    padding-bottom: 6px;
+    padding: 0 0 9px 6px;
+    width: 100%;
     }
 
 .center-div {
     text-align: center;
+    padding-bottom: 12px;
     }
 
 .title-main {
@@ -91,6 +92,11 @@ body {
 
 @media (max-width: 768px) {
     .plot-side {
-     max-width: 22%;
-    display: inline-block;
+        max-width: 22%;
+        display: inline-block;
+        }
+
+    .plot-comp {
+        max-width: 100%;
+        }
     }
