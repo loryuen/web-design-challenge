@@ -3,13 +3,13 @@
 body {
     position: relative;
     min-height: 100vh;
-}
+    }
 
 #table {
     font-size: 12px;
     margin-left: 15px;
-}
-/*height: 2.3rem; position: aboslute*/
+    }
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -18,17 +18,18 @@ body {
     padding-top: 18px;
     background: thistle;
     text-align: center;
-    color: black;
+    color: navy;
     margin-top: 20px;
     }
 
 .plot-comp {
     text-align: center;
     padding-bottom: 6px;
-}
+    }
+
 .center-div {
     text-align: center;
-}
+    }
 
 .title-main {
     padding-top: 20px;
@@ -44,17 +45,11 @@ body {
 
 .spacer {
     padding: 25px 0 0 0;
-}
+    }
 
 .spacer-bottom {
     padding: 50px;
     }
-
-/*.background-main {
-    background: cadetblue}*/
-
-/*.background-side {
-    text-align: center;}*/
 
 .title-plot { 
     text-align: center;
@@ -65,7 +60,9 @@ body {
 #plot-main {
     float: left;
     padding-right: 10px;
-    padding-bottom: 5px;}
+    padding-bottom: 5px;
+    width: 60%;
+    }
 
 .plot-side {
     width: 40%;
@@ -73,7 +70,7 @@ body {
     display: inline-block;
     margin: 0 auto;
     padding: 5px;
-}
+    }
 
 #plot-showcase {
     padding-top: 5px;
@@ -86,7 +83,7 @@ body {
 
 .highlight:hover img {
     border: 1px solid navy;
-}
+    }
 
 .border img{
     border: 2px solid lightgray;
@@ -96,4 +93,4 @@ body {
     .plot-side {
      max-width: 22%;
     display: inline-block;
-}
+    }
